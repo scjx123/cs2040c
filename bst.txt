@@ -1,0 +1,17 @@
+template <class T>
+void BinarySearchTree<T>::insert(T x)
+{
+	if (current->_item > x) {
+		if (current->_left)
+			current->left = insert(current->_left, x);
+		else
+			current->_left = new TreeNode<T>(x);
+	}
+	else if (x > current->_item) {
+		if (current->_right)
+			current->_left = insert(current->left, x);
+		else
+			current->_right = new TreeNode<T>(x);
+	}
+	else return current; 
+}
