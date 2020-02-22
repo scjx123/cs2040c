@@ -1,5 +1,5 @@
 template <class T>
-TreeNode<T>* BinarySearchTree<T>::insert(TreeNode<T>* current, T x)
+void BinarySearchTree<T>::insert(T x)
 {
 	if (current->_item > x) {
 		if (current->_left)
