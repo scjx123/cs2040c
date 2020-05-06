@@ -1,0 +1,19 @@
+﻿  main.cpp
+D:\Y1S2\CS2040C\Lab\week 11\heap.hpp(167,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Y1S2\CS2040C\Lab\week 11\heap.hpp(168,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Y1S2\CS2040C\Lab\week 11\heap.hpp(167,12): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Y1S2\CS2040C\Lab\week 11\heap.hpp(13,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Y1S2\CS2040C\Lab\week 11\heap.hpp(11): message : while compiling class template member function 'void Heap<int>::_bubbleUp(int)'
+D:\Y1S2\CS2040C\Lab\week 11\heap.hpp(56): message : see reference to function template instantiation 'void Heap<int>::_bubbleUp(int)' being compiled
+D:\Y1S2\CS2040C\Lab\week 11\heap.hpp(54): message : while compiling class template member function 'void Heap<int>::insert(T)'
+          with
+          [
+              T=int
+          ]
+D:\Y1S2\CS2040C\Lab\week 11\main.cpp(21): message : see reference to function template instantiation 'void Heap<int>::insert(T)' being compiled
+          with
+          [
+              T=int
+          ]
+D:\Y1S2\CS2040C\Lab\week 11\heap.hpp(21,17): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  heap1.vcxproj -> D:\Y1S2\CS2040C\Lab\week 11 ver 2\heap1\Debug\heap1.exe
